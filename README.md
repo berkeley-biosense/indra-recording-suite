@@ -32,4 +32,4 @@ There are four fields in out.csv,
 
 Data is a JSON string. It contains everything, including the first 3 fields. 
 
-When processing this data, you can query/select the data you want using the first three fields; then, take the data field and, in python, use [json.loads()](https://docs.python.org/2/library/json.html) to convert it to a python object and explore all the secrets it holds. (Or marshall it into a format that's good for you).
+When processing this data, you can query/select the data you want using the first three fields. Take the data field and, in python, use [json.loads()](https://docs.python.org/2/library/json.html) to turn it into a python object and explore all the secrets it holds. (Or marshall it into a format that's good for you).
