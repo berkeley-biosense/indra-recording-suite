@@ -14,7 +14,7 @@ Make sure you've also done
 
 ## Usage
 
-Run the recording saver with `node recording-saver.js`.
+Run the recording saver with `npm start`.
 
 Now put on your Mindwave and run indra-client (or run `npm test` to use some fake data).
 

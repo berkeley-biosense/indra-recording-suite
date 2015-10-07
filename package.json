@@ -4,6 +4,7 @@
   "description": "",
   "main": "recording-saver.js",
   "scripts": {
+    "start": "node recording-saver.js",
     "test": "node test/post-test-data.js"
   },
   "author": "elsehow",

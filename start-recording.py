@@ -3,8 +3,7 @@ import json
 url = "http://indra.webfactional.com/"
 headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
 
-# MESSAGE PARAMTERS
-# ALL OF THESE ARE STRINGS
+# THINGS FOR YOU TO EDIT
 tag = "mental-rotation" # tag - probably task name
 sid = "24" # subject ID
 dur = "10" # duration of recording, in seconds
