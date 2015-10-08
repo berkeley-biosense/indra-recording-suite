@@ -10,7 +10,7 @@ var log_line = function (d) {
 }
 
 var append_to_log = function (d, cb) {
-  fs.appendFile(log_file, log_line(d), cb)
+  fs.appendFile(log_file, log_line(d)+'\n', cb)
 }
 
 var save_data = function(data, start_msg) {
