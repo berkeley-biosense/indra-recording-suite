@@ -6,7 +6,9 @@ var log_file       = 'out.csv'
 
 // CSV row: time, tag, sid, full data
 var log_line = function (d) {
-  return [d.receivedAt, d.tag, d.sid, JSON.stringify(d)].join(',')
+  d.reading.eeg_power = d.reading.eeg_power + ''
+  d.reading.raw_values = d.reading.raw_values + ''
+  return JSON.stringify(d)
 }
 
 var append_to_log = function (d, cb) {
