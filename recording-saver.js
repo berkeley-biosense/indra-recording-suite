@@ -9,6 +9,8 @@ var log_file       = 'out' + date_label + '.csv'
 
 faucet.on('connect', () => {
   
+  console.log(`connected to indra server at ${hostname}`)
+  
   // CSV row: time, tag, sid, full data
   var log_line = function (d) {
     d.reading.eeg_power = d.reading.eeg_power + ''
